@@ -1,4 +1,8 @@
 # Simple_Banking_System---hyperskill
+
+Short description:
+Banking system made using JDBC, SQL queries. There is simple menu on the start, card creations made with Luhn Algorithm and random numbers(so is PIN numbers). Adding money into account and transactions beetween accounts. The core of the program is SQl and JDBC training.
+
 FIRST STAGE:
 You should allow customers to create a new account in our banking system.
 
