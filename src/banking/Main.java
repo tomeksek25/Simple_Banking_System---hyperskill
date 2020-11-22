@@ -29,7 +29,7 @@ public class Main {
                 String PIN = scanner.nextLine();
                 Optional<Account> account = accountRepository.verify(num, PIN);
 
-                if (account.isPresent() && account.get().getPIN().equals(PIN)) {
+                if (account.isPresent()) {
                     System.out.println("You have successfully logged in!");
                     while(true) {
                         System.out.println("1. Balance");
